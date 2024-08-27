@@ -1,0 +1,18 @@
+{
+    "App0": {
+        "ImagePath": "icon.ico",
+        "Name": "App Manager",
+        "Link": "https://github.com/Lumelys/AppManager",
+        "Description": "App Manager that keeps my favorite applications' download link",
+        "Tags": "#App, #Software, #Manage, #Tool",
+        "Size": "<1"
+    },
+    "App1": {
+        "ImagePath": "icon.ico",
+        "Name": "Github",
+        "Link": "https://github.com",
+        "Description": "GitHub is a developer platform that allows developers to create, store, manage and share their code",
+        "Tags": "#Development, #git, #CLI, #Project, #Open Source",
+        "Size": "0"
+    }
+}
