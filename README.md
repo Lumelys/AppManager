@@ -1,6 +1,6 @@
 # App Manager
 
-<img src="Path_to_your_image/image_file.jpg">
+<img src="AppManager/IconData/Icon.ico">
 
 App Manager is a python application built with Tkinter to help you manage your softwares simply and efficiently.
 
