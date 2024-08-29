@@ -242,7 +242,7 @@ class AppSearch(ctk.CTkFrame):
             self.ScrollHeight = self.winfo_screenheight()
         else:
             self.ScrollHeight = AppDataCount * 100
-        self.Canvas = ctk.CTkCanvas(self, bg="#121212", highlightthickness=0, scrollregion= (0, 0, 100, self.ScrollHeight))
+        self.Canvas = ctk.CTkCanvas(self, bg="#121212", highlightthickness=0, scrollregion= (0, 0, 100, self.ScrollHeight * 1.1))
         self.Canvas.bind_all('<MouseWheel>', lambda event: self.Canvas.yview_scroll(-int(event.delta / 120), "units"))
         self.bind("<Configure>", self.SetAppCard)
         self.AppCardScrollBar = ctk.CTkScrollbar(self, command= self.Canvas.yview)
